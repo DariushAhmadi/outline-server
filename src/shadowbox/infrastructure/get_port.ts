@@ -14,7 +14,7 @@
 
 import * as child_process from 'child_process';
 
-const MAX_PORT = 65535;
+const MAX_PORT = 7999;
 const MIN_PORT = 1024;
 
 export function getRandomUnusedPort(
